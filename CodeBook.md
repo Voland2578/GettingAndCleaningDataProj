@@ -10,7 +10,8 @@ The raw data is provided at this
 ##### Train Data
 Training set data has been loaded into the following variables in the **acquire.data()** function
 Variable Name | Description 
-train_data | X_train.txt
+------------- | -------------
+train_data    | X_train.txt
 
 
 
