@@ -7,6 +7,7 @@ The raw data is provided at this
 
 ### Data Transformation
 #### Merging
+The test and train data were merged per project instruction
 ##### Train Data
 Training set data has been loaded into the following variables in the **acquire.data()** function
 
@@ -17,7 +18,6 @@ train_labels  | numerical activity label from y_train.txt
 train_subject | subject data contained in subject_train.txt
 
 test_data contains the result of merging the 3 tables above
-
 
 ##### Test Data
 Test set data has been loaded into the following variables in the **acquire.data()** function
@@ -30,3 +30,5 @@ test_subject | subject data contained in subject_test.txt
 
 train_data contains the result of merging the 3 tables above
 
+##### Labeling
+The appropriate column labels were applied to train_data and test_data from features.txt file. Additionally, _LabelID_ and _SubjectID_ were added for readability
