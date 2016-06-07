@@ -61,5 +61,3 @@ Only factors representing mean or standard deviation were retained
 
 </pre>
 
-
-
