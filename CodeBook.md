@@ -6,7 +6,7 @@ The raw data is provided at this
 [location](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). 
 
 ### Data Transformation
-#### Merging
+#### Merging Procedure
 The test and train data were merged per project instruction
 ##### Train Data
 Training set data has been loaded into the following variables in the **acquire.data()** function
