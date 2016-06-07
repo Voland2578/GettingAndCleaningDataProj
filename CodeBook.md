@@ -16,7 +16,10 @@ train_data    | signal data from X_train.txt
 train_labels  | numerical activity label from y_train.txt
 train_subject | subject data contained in subject_train.txt
 
-##### Test Data
+test_data contains the result of merging the 3 tables above
+
+
+#### Test Data
 Test set data has been loaded into the following variables in the **acquire.data()** function
 
 Variable Name | Description 
@@ -25,5 +28,5 @@ test_data    | signal data from X_test.txt
 test_labels  | numerical activity label from y_test.txt
 test_subject | subject data contained in subject_test.txt
 
-
+train_data contains the result of merging the 3 tables above
 
