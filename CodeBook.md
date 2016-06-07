@@ -23,8 +23,18 @@ activity_labels | activity_labels.txt |  mapping between activity label id  and 
 
 ### Data Transformation
 #### Merging Procedure
-The test and train data were merged per project instruction
-* All test data has been merged into train_data variable
+All train data has been merged into train_data variable
+<pre lang="R"><code>
+ train_data <- cbind(train_data, train_labels)
+ train_data <- cbind(train_data, train_subject)
+</code></pre>
+
+All test data has been merged into test_data variable
+<pre lang="R"><code>
+ test_data <- cbind(test_data, test_labels)
+ test_data <- cbind(test_data, test_subject)
+ </code></pre>
+
  
 
 ##### Test Data
