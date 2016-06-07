@@ -13,7 +13,9 @@ Training set data has been loaded into the following variables in the **acquire.
 
 Variable Name | Description 
 ------------  | -------------
-train_data    | X_train.txt
+train_data    | signal data from X_train.txt
+train_labels  | numerical activity label from y_train.txt
+train_subject | subject data contained in subject_train.txt
 
 
 
