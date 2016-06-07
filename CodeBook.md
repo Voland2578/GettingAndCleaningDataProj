@@ -6,7 +6,7 @@ The raw data is provided at this
 [location](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). 
 
 
-#### Loading Raw Data.
+#### Loading Raw Data
 The raw data was loaded into following variables
 
 Variable Name   | Source File | Description 
@@ -24,16 +24,8 @@ activity_labels | activity_labels.txt |  mapping between activity label id  and 
 ### Data Transformation
 #### Merging Procedure
 The test and train data were merged per project instruction
-##### Train Data
-Training set data has been loaded into the following variables in the **acquire.data()** function
-
-Variable Name | Description 
-------------  | -------------
-train_data    | signal data from X_train.txt
-train_labels  | numerical activity label from y_train.txt
-train_subject | subject data contained in subject_train.txt
-
-test_data contains the result of merging the 3 tables above
+* All test data has been merged into train_data variable
+ 
 
 ##### Test Data
 Test set data has been loaded into the following variables in the **acquire.data()** function
