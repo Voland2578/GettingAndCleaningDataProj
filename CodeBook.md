@@ -43,7 +43,7 @@ The appropriate column labels were applied to train_data and test_data from feat
 #### Merging
 The test and train data were merged and represented in the _combined_data_ variable. The readable activity label from activity_labels was added.
 
-#### Extracting columns 
+#### Extracting appropriate factors 
 
 Only factors representing mean or standard deviation were retained
 <pre lang="R"> <code>
