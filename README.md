@@ -4,9 +4,9 @@ This project serves as a demonstration of gathering, cleaning, and tidying up da
 The complete description of the dataset can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Installation
-* blah 
-* blah 
-* blah
+# Acquire data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzip into local disk 
+# Download the R script from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+# blah
 Data acquisition and analysis are performed by run_analysis.R script
 
 
