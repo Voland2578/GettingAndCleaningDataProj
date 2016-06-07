@@ -76,3 +76,9 @@ Original Pattern | New Pattern | Old Column Example | New Column Example
 
 ### Result
 Second, independent tidy data set with the average of each variable for each activity and each subject has been placed in the **result** variable
+
+### Running the Analysis
+
+root_path <- "E:\\Projects\\R\\CleaningData\\week4\\UCI HAR Dataset"
+combined_data <- acquire_data(root_path)
+result <- analyze.data(combined_data)
