@@ -22,7 +22,7 @@ activity_labels | activity_labels.txt |  mapping between activity label id  and 
 
 
 ### Data Transformation
-#### Merging Procedure
+#### Gathering 
 All train data has been merged into train_data variable
 <pre lang="R"><code>
  train_data <- cbind(train_data, train_labels)
@@ -35,21 +35,8 @@ All test data has been merged into test_data variable
  test_data <- cbind(test_data, test_subject)
  </code></pre>
 
- 
+#### Labeling
+The appropriate column labels were applied to train_data and test_data from features variable. Additionally, _LabelID_ and _SubjectID_ were added for readability
 
-##### Test Data
-Test set data has been loaded into the following variables in the **acquire.data()** function
-
-Variable Name | Description 
-------------  | -------------
-test_data    | signal data from X_test.txt
-test_labels  | numerical activity label from y_test.txt
-test_subject | subject data contained in subject_test.txt
-
-train_data contains the result of merging the 3 tables above
-
-##### Labeling
-The appropriate column labels were applied to train_data and test_data from features.txt file. Additionally, _LabelID_ and _SubjectID_ were added for readability
-
-##### Merging
+#### Merging
 The test and train data were merged and represented in the _combined_data_ variable. The readable activity label from _activity
