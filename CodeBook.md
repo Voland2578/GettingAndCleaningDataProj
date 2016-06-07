@@ -63,5 +63,16 @@ Only factors representing mean or standard deviation were retained
 [66] "fBodyBodyGyroJerkMag-std()" 
 </code> </pre>
 
+The data was saved in the **combined_filtered_data** variable
+### Tidying Data
+The following readability updates have been applied to the labels of the **combined_filtered_data** variable
 
+Original Pattern | New Pattern | Old Column Example | New Column Example
+-----------------------------|------------|--------------------|--------------
+-mean() | Mean | fBodyBodyGyroJerkMag-mean() | fBodyBodyGyroJerkMagMean
+-std()  | Std | fBodyBodyGyroJerkMag-std() | fBodyBodyGyroJerkMagStd
+-mean()-[.] | Mean.          | fBodyBodyGyroJerkMag-mean()-X | fBodyBodyGyroJerkMagMeanX
+-std()-[.] | Std.          | fBodyBodyGyroJerkMag-std()-X | fBodyBodyGyroJerkMagStdX
 
+### Result
+Second, independent tidy data set with the average of each variable for each activity and each subject has been placed in the **result** variable
