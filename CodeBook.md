@@ -19,7 +19,7 @@ train_subject | subject data contained in subject_train.txt
 test_data contains the result of merging the 3 tables above
 
 
-#### Test Data
+##### Test Data
 Test set data has been loaded into the following variables in the **acquire.data()** function
 
 Variable Name | Description 
