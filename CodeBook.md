@@ -32,3 +32,6 @@ train_data contains the result of merging the 3 tables above
 
 ##### Labeling
 The appropriate column labels were applied to train_data and test_data from features.txt file. Additionally, _LabelID_ and _SubjectID_ were added for readability
+
+##### Merging
+The test and train data were merged and represented in the _combined_data_ variable
