@@ -5,6 +5,22 @@ It described in full detail here: http://archive.ics.uci.edu/ml/datasets/Human+A
 The raw data is provided at this
 [location](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). 
 
+
+#### Loading Raw Data.
+The raw data was loaded into following variables
+
+Variable Name   | Source File | Description 
+------------    | ------------|------------
+train_data      | X_train.txt |  signal data from X_train.txt
+train_labels    | y_train.txt |  numerical activity labels for each observation in train_data
+train_subject   | subject_train.txt |  subject id for each observation in train_data
+test_data       | X_test.txt |  signal data from X_train.txt
+test_labels     | y_test.txt |  numerical activity labels for each observation in test_data
+test_subject    | subject_test.txt |  subject id for each observation in test_data
+features        | features.txt |  names of 561 features provided in train_data and test_data 
+activity_labels | activity_labels.txt |  mapping between activity label id  and description
+
+
 ### Data Transformation
 #### Merging Procedure
 The test and train data were merged per project instruction
@@ -34,4 +50,4 @@ train_data contains the result of merging the 3 tables above
 The appropriate column labels were applied to train_data and test_data from features.txt file. Additionally, _LabelID_ and _SubjectID_ were added for readability
 
 ##### Merging
-The test and train data were merged and represented in the _combined_data_ variable
+The test and train data were merged and represented in the _combined_data_ variable. The readable activity label from _activity
