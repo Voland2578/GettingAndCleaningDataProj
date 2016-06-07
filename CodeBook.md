@@ -35,6 +35,7 @@ All test data has been merged into test_data variable
  test_data <- cbind(test_data, test_subject)
  </code></pre>
 #### Labeling
+
 The appropriate column labels were applied to train_data and test_data from features variable. Additionally, _LabelID_ and _SubjectID_ were added for readability
 
 #### Merging
