@@ -79,6 +79,10 @@ Second, independent tidy data set with the average of each variable for each act
 
 ### Running the Analysis
 
+<pre lang="R"><code>
+# don't forget to point root path to "UCI HAR Dataset" folder
 root_path <- "E:\\Projects\\R\\CleaningData\\week4\\UCI HAR Dataset"
-combined_data <- acquire_data(root_path)
-result <- analyze.data(combined_data)
+data <- acquire.data(root_path)
+analyze.data(data)
+</code></pre>
+
