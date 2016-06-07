@@ -34,7 +34,7 @@ All test data has been merged into test_data variable
  test_data <- cbind(test_data, test_labels)
  test_data <- cbind(test_data, test_subject)
  </code></pre>
-
+ 
 #### Labeling
 The appropriate column labels were applied to train_data and test_data from features variable. Additionally, _LabelID_ and _SubjectID_ were added for readability
 
@@ -42,6 +42,7 @@ The appropriate column labels were applied to train_data and test_data from feat
 The test and train data were merged and represented in the _combined_data_ variable. The readable activity label from activity_labels was added.
 
 #### Extracting columns
+
 Only factors representing mean or standard deviation were retained
 <pre>
 [1] "tBodyAcc-mean()-X"           "tBodyAcc-mean()-Y"           "tBodyAcc-mean()-Z"           "tBodyAcc-std()-X"            "tBodyAcc-std()-Y"           
